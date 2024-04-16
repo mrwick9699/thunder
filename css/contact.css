@@ -1,0 +1,111 @@
+/*
+
+Theme Name: Thunder - Creative Agencies & Portfolio Template
+Author: https://themeforest.net/user/activerealm
+Support: mdalamin12623@gmail . com
+Description: Creative Protfolio HTML5 Tamplate
+Version: 1.0
+*/
+
+
+.customer-survicebg{
+	width: 100%;
+	padding: 6rem 5rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background-image: linear-gradient( rgba(0,0,0,0.8), rgba(0, 0, 0, 0.8) ), url(../img/blogbg.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+#customer-heading{
+	color: #91E1EE;
+	font-size: 3.5rem;
+	font-weight: 600;
+	line-height: 5rem;
+	font-family: IBM Plex Sans;
+	padding-top: 8rem;
+}
+#customer-para{
+	width: 55rem;
+	color: #CFD5F0;
+	font-size: 1.5rem;
+	font-weight: 400;
+	text-align: center;
+	line-height: 2.5rem;
+	font-family: IBM Plex Sans;
+}
+.customer-survice{
+	width: 100%;
+	padding: 5rem 5rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 3rem;
+}
+.customer-support{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.customer-serviceimg{
+	width: 32rem;
+	height: 23rem;
+	background: black;
+	border-radius: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	transition: .5s;
+}
+.customer-serviceimg:hover,
+.customer-serviceimg:active{
+	transform: scale(1.05);
+}
+.customer-serviceimg i{
+	color: #40b7c9;
+	font-size: 4.5rem;
+	position: absolute;
+	margin: 16rem 0rem 0rem 25rem;
+	cursor: pointer;
+}
+#customer-supportimg{
+	width: 32rem;
+	height: 23rem;
+	border-radius: 2rem;
+	position: relative;
+}
+.customer-support h2{
+	color: #CFD5F0;
+	font-size: 2rem;
+	font-weight: 600;
+	line-height: 3rem;
+	font-family: Inter;
+	padding-top: .5rem;
+}
+.customer-support a{
+	color: #91E1EE;
+	font-size: 1.3rem;
+	font-weight: 400;
+	line-height: 2rem;
+	font-family: Inter;
+	transition: .5s;
+}
+.customer-support a:hover,
+.customer-support a:active{
+	color: #CFD5F0;
+	transform: scale(1.05);
+}
+
+
+@media (max-width: 768px){
+	.customer-survice {
+    width: 100%;
+    padding: 6rem 0rem 0rem 0rem;
+    flex-wrap: wrap;
+    }
+
+}

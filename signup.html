@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Thunder - SignUp Form</title>
+
+	<!-- google fonts -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600&family=IBM+Plex+Sans:wght@600&display=swap" rel="stylesheet">
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<!-- FontAwesome Icon style -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- AOS Scrool JS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<!-- swiper js link -->
+  <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+<!-- Our Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/signup.css">
+</head>
+<body>
+
+  <header class="header">
+
+  <nav>
+    <div class="logo">
+      <a href="index.html"><img src="img/logo.png" alt="">Thunder</a>
+    </div>
+
+    <input type="checkbox" id="check">
+    <label for="check" id="menu-btn"><i class="fa-solid fa-bars"></i></label>
+    <div class="menubar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <label for="page-click">
+        <li id="page-dropdown">Pages
+          <input type="checkbox" id="page-click">
+          <div class="pages-dropdown">
+            <a href="#" id="page-item">Page1</a>
+            <a href="#" id="page-item">Page2</a>
+            <a href="#" id="page-item">Page3</a>
+            <a href="#" id="page-item">Page4</a>
+            <a href="#" id="page-item">Page5</a>
+            <a href="#" id="page-item">Page6</a>
+            <a href="#" id="page-item">Page7</a>
+            <a href="#" id="page-item">Page8</a>
+          </div>
+        </li>
+        </label>
+
+        <label for="service-click">
+        <li id="service-dropdown">Servies
+          <input type="checkbox" id="service-click">
+          <div class="services-dropdown">
+            <a href="#" id="page-item">Logo Design</a>
+            <a href="#" id="page-item">Flyer Design</a>
+            <a href="#" id="page-item">Poster Design</a>
+            <a href="#" id="page-item">Image Editing</a>
+            <a href="#" id="page-item">Web Design</a>
+            <a href="#" id="page-item">Illustration</a>
+          </div>
+        </li>
+        </label>
+
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="blog.html">Blog</a></li>
+      </ul>
+      <div class="sign-log">
+        <a href="login.html" id="log">Log In</a>
+        <a href="signup.html" id="talk">Let's Talk</a>
+      </div>
+    </div>
+
+  </nav>
+</header>
+
+<!-- Dust Start bg start-->
+    <div class="starsec"></div>
+    <div class="starthird"></div>
+    <div class="starfourth"></div>
+    <div class="starfifth"></div>
+
+<section class="signup-style">
+  <div class="signup-bg">
+    <div class="signup">
+      <div class="signup-heading">
+         <h2>Registration</h2>
+         <p>SignUp for your design</p>
+      </div>
+     
+      <div class="signup-form">
+        <div class="signup-info">
+          <h4>Name</h4>
+           <span id="sign-icon">
+            <i class="fa-solid fa-file-signature" id="mailicon"></i>
+          <input type="text" placeholder="Full name" id="signup-input"></span>
+        </div>
+        <div class="signup-info">
+          <h4>Email</h4>
+          <span id="sign-icon">
+            <i class="fa-solid fa-envelope" id="mailicon"></i>
+          <input type="email" placeholder="Enter your email" id="signup-input">
+          </span>
+        </div>
+
+        <div class="gender">
+           <h4>Gender</h4>
+           <span id="sign-icon">
+            <i class="fa-solid fa-venus-mars" id="mailicon"></i>
+           <div class="genderlists">
+              <div class="gender-list">
+                <input type="checkbox" id="malecheck">
+                <label for="malecheck" id="gendercheckbox">
+                  <i class="fa-solid fa-mars-stroke" id="maleicon"></i> Male
+                </label>
+              </div>
+              <div class="gender-list">
+                <input type="checkbox" id="femalecheck">
+                <label for="femalecheck" id="gendercheckbox1">
+                  <i class="fa-solid fa-venus" id="femaleicon"></i> Female
+                </label>
+              </div>
+           </div></span>
+
+        </div>
+
+        <div class="dateofbirth">
+            <h4>Date of Births</h4>
+            <span id="sign-icon">
+            <i class="fa-solid fa-calendar" id="mailicon"></i>
+            <input type="date" id="datebirth"></span>
+           </div>
+           <div class="signup-info">
+          <h4>Address</h4>
+          <span id="sign-icon">
+            <i class="fa-solid fa-map-location-dot" id="mailicon"></i>
+          <input type="text" placeholder="Address" id="signup-input"></span>
+        </div>
+        <div class="signup-info">
+          <h4>Country</h4>
+          <span id="sign-icon">
+            <i class="fa-solid fa-flag" id="mailicon"></i>
+          <input type="text" placeholder="Country name" id="signup-input"></span>
+        </div>
+         <div class="signup-info">
+          <h4>Password</h4>
+          <span id="sign-icon">
+             <i class="fa-solid fa-key" id="mailicon"></i>
+          <input type="password" placeholder="Password" id="signup-input"></span>
+        </div>
+         <div class="signup-info">
+          <h4>Repeat Password</h4>
+          <span id="sign-icon">
+            <i class="fa-solid fa-key" id="mailicon"></i>
+          <input type="password" placeholder="Confirm password" id="signup-input"></span>
+        </div>
+
+        <div class="signup-agree">
+          <input type="checkbox" id="spagree">
+          <h5>By creating an account you agree to our <a href="#"> Terms & Privacy</a></h5>
+        </div>
+
+        <div class="signup-submit">
+          <input type="submit" id="spsubmit" value="Register">  
+        </div>
+
+        <div class="already-account">
+          <h5>Already have an account? <a href="login.html">Log In</a></h5>
+        </div>
+        <div class="signup-with">
+          <h4>Sign Up with</h4>
+            <div class="logwithicon">
+               <a href="#"><i class="fa-brands fa-facebook" id="logfb"></i></a>
+               <a href="#"><i class="fa-brands      fa-square-twitter" id="logtwitter"></i></a>
+               <a href="#"><i class="fa-brands fa-google-plus" id="loggmail"></i></a>
+            </div>
+        </div>       
+      </div>  
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+<!-- Start  footer section -->
+
+<section class="footers">
+  <div class="foooter-bg">
+    <div class="footer-parts">
+      <div class="footer-left">
+          <div class="logo">
+      <a href="index.html"><img src="img/logo.png" alt="">Thunder</a>
+    </div>
+          <h3>Subscribe to our newsletter to stay in touch with the latest.</h3>
+          <div class="email-submit">
+               <input type="email" id="email2" name="email" placeholder="Enter your email">
+               <input type="submit" value="Subscribe" id="submit2">           
+          </div>    
+        
+      </div>
+      <div class="footer-right">
+        <div class="right-col">
+            <a href="" id="first-heading-size">Pages</a>
+            <a href="index.html">Home</a>
+            <a href="blog.html">BLog</a>
+            <a href="">Service</a>
+            <a href="contact.html">Contact Us</a>     
+          </div>
+          <div class="right-col">
+            <a href="" id="first-heading-size">Company</a>
+            <a href="">Graphic Design</a>
+            <a href="">Logo Design</a>
+            <a href="">Figma Design</a>
+            <a href="">Canva Design</a>       
+          </div>
+          <div class="right-col">
+            <a href="" id="first-heading-size">Support</a>
+            <a href=""> Pricing</a>
+            <a href="">Wishlist</a> 
+            <a href="">Privacy Policy</a>
+            <a href="">Terms & Conditions</a>       
+          </div>    
+      </div>  
+    </div>
+    <div class="foot-end">
+        <div class="footer-endpara">
+          <p> Lorem ipsum dolor sit amet consectetur</p>
+          
+        </div>
+        <div class="footer-endicon">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands      fa-square-twitter"></i></a>
+        <a href="#"><i class="fa-brands  fa-linkedin"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-google-plus"></i></a>
+        <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+        <a href="#"><i class="fa-brands fa-square-whatsapp"></i></a>        
+        </div>
+        <div class="footer-endtext">
+          <h4>© Copyright 2024, All Rights Reserved by Thunder</h4>
+        </div>
+      </div>
+  </div>
+</section>
+
+
+</body>
+</html>

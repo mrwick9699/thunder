@@ -1,0 +1,355 @@
+/*
+
+Theme Name: Thunder - Creative Agencies & Portfolio Template
+Author: https://themeforest.net/user/activerealm
+Support: mdalamin12623@gmail . com
+Description: Creative Protfolio HTML5 Tamplate
+Version: 1.0
+*/
+
+
+
+.signup-bg{
+    width: 100%;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+    padding: 13rem 5rem 7rem 5rem;
+	background-image: linear-gradient( rgba(0,0,0,0.9), rgba(0, 0, 0, 0.9) ), url(../img/signupimg/signup-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.signup{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background: #060D18;
+	padding: 5rem 5rem;
+	border-radius: 2rem;
+	gap: 2rem;
+	box-shadow: 0rem 0rem .5rem .1rem #1B4233;
+}
+
+.signup-heading{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0rem 0rem 1rem 0rem;
+	border-bottom: .1rem solid #635b55;
+}
+.signup-heading h2{
+	color: #91E1EE;
+	font-size: 2.5rem;
+	line-height: 3.5rem;
+	font-weight: 600;
+	text-align: center;
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+.signup-heading p{
+	color: #CFD5F0;
+	font-size: 1rem;
+	line-height: 1.5rem;
+	font-weight: 400;
+	text-align: center;
+	letter-spacing: .1rem;
+	font-family: 'Inter', sans-serif;
+}
+.signup-form{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-direction: column;
+	gap: 3rem;
+	padding-top: 6rem;
+}
+.signup-info{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 5rem;
+}
+.signup-info h4{
+	color: #91E1EE;
+	font-size: 1.5rem;
+	line-height: 2rem;
+	font-weight: 400;
+	text-align: center;
+	font-family: 'Inter', sans-serif;
+}
+#sign-icon{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1.5rem;
+}
+#signup-input{
+	width: 32rem;
+	height: 3rem;
+	color: #CFD5F0;
+	font-size: 1.2rem;
+	font-weight: 500;
+	font-family: Inter;
+	background: transparent;
+	border: transparent;
+	outline: none;
+	border-radius: .5rem;
+	padding: .5rem 2rem;
+	box-shadow: 0rem 0rem .3rem .3rem #1B4233;
+	transition: .5s;
+}
+#mailicon{
+	color: #91E1EE;
+	font-size: 2.5rem;
+	opacity: 18%;
+}
+#signup-input:active{
+	transform: scale(1.05);
+}
+.gender{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 16rem;
+}
+.gender h4{
+	color: #91E1EE;
+	font-size: 1.5rem;
+	line-height: 2rem;
+	font-weight: 400;
+	text-align: center;
+	font-family: 'Inter', sans-serif;
+}
+.genderlists{
+	width: 32rem;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 3rem;
+	padding-left: .5rem;
+}
+#malecheck{
+	display: none;
+}
+#gendercheckbox{
+	color: #CFD5F0;
+	font-size: 1.5rem;
+	line-height: 2rem;
+	font-weight: 500;
+	text-align: center;
+	font-family: 'Inter', sans-serif;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 1rem;
+	transition: .5s;
+}
+#gendercheckbox1{
+	color: #CFD5F0;
+	font-size: 1.5rem;
+	line-height: 2rem;
+	font-weight: 500;
+	text-align: center;
+	font-family: 'Inter', sans-serif;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 1rem;
+	transition: .5s;
+}
+#malecheck:checked ~ #gendercheckbox{
+	background: #000000;
+	border-radius: 1rem;
+	padding: .5rem 1.5rem;
+	box-shadow: 0rem 0rem .3rem .2rem #1B4233;
+}
+/*#malecheck:checked ~ #gendercheckbox1{
+	display: none;
+}*/
+#gendercheckbox:hover{
+	background: #000000;
+	border-radius: 1rem;
+	padding: .5rem 1.5rem;
+	box-shadow: 0rem 0rem .3rem .2rem #1B4233;
+}
+#maleicon{
+	color: royalblue;
+}
+#femalecheck{
+	display: none;
+}
+#femalecheck:checked ~ #gendercheckbox1{
+	background: #000000;
+	border-radius: 1rem;
+	padding: .5rem 1.5rem;
+	box-shadow: 0rem 0rem .3rem .2rem #1B4233;
+}
+#gendercheckbox1:hover{
+	background: #000000;
+	border-radius: 1rem;
+	padding: .5rem 1.5rem;
+	box-shadow: 0rem 0rem .3rem .2rem #1B4233;
+}
+#femaleicon{
+	color: royalblue;
+}
+.dateofbirth{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 3rem;
+}
+.dateofbirth h4{
+	color: #91E1EE;
+	font-size: 1.5rem;
+	line-height: 2rem;
+	font-weight: 400;
+	text-align: center;
+	font-family: 'Inter', sans-serif;
+}
+#datebirth{
+	width: 32rem;
+	height: 3rem;
+	color: #1B4233;
+	font-size: 1.5rem;
+	font-weight: 500;
+	font-family: Inter;
+	background: #CFD5F0;
+	border: transparent;
+	outline: none;
+	border-radius: .5rem;
+	padding: .5rem 2rem;
+	cursor: pointer;
+}
+.signup-agree{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 1rem;
+}
+#spagree{
+	width: 1.1rem;
+	height: 1.1rem;
+	cursor: pointer;
+}
+.signup-agree h5{
+	color: #CFD5F0;
+	font-size: 1.1rem;
+	line-height: 1.5rem;
+	font-weight: 400;
+	text-align: center;
+	font-family: 'Inter', sans-serif;
+}
+.signup-agree h5 a{
+	color: #91E1EE;
+	font-family: 'IBM Plex Sans', sans-serif;
+	padding-left: .5rem;
+}
+.signup-submit{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: right;
+}
+#spsubmit{
+	color: #CFD5F0;
+	font-size: 1.5rem;
+	line-height: 1.8rem;
+	font-weight: 600;
+	font-family: Inter;
+	text-align: center;
+	cursor: pointer;
+	background: transparent;
+	outline: none;
+	border: transparent;
+	padding: 1rem 3rem;
+	border-radius: 1rem 1rem 0rem 1rem;
+	margin: 0rem 0rem 0rem 24rem;
+	box-shadow: 0rem 0rem .3rem .2rem #635b55;
+	transition: .5s;
+}
+#spsubmit:hover{
+	transform: scale(1.05);
+}
+#spsubmit:active{
+	transform: scale(1.05);
+}
+
+
+.already-account{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.already-account h5{
+	color: #CFD5F0;
+	font-size: 1.1rem;
+	line-height: 1.5rem;
+	font-weight: 400;
+	text-align: center;
+	font-family: 'Inter', sans-serif;
+}
+.already-account h5 a{
+	color: #91E1EE;
+	font-family: 'IBM Plex Sans', sans-serif;
+	padding-left: .5rem;
+}
+
+.signup-with{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	gap: 2rem;
+}
+.signup-with h4{
+	width: 100%;
+	color: #91E1EE;
+	font-style: 1.5rem;
+	font-weight: 400;
+	line-height: 2rem;
+	font-family: Inter;
+	text-align: center;
+	padding: 1.5rem 0rem 0rem 0rem;
+	border-top: .1rem solid #635b55;
+}
+.logwithicon{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 2rem;
+}
+.logwithicon a i{
+	transition: .5s;
+}
+.logwithicon a i:active{
+	transform: scale(1.3);
+}
+.logwithicon a i:hover{
+	transform: scale(1.3);
+}
+#logfb{
+	color: #ffff;
+	font-size: 2.5rem;
+
+}
+#logtwitter{
+	color: #ffff;
+	font-size: 2.5rem;
+}
+#loggmail{
+	color: #ffff;
+	font-size: 2.5rem;
+}
